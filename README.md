@@ -9,5 +9,12 @@ We collected seven sequences, comprising three indoor and four outdoor scenes. T
 ### 1.1Topics
 ```cpp
 imu: /mavros/imu/data_raw 200Hz
+GNSS: /ublox_driver/receiver_lla 10Hz
+      /ublox_driver/receiver_pvt 10Hz
+      /ublox_driver/range_meas 10Hz
+      /ublox_driver/ephem
+      /ublox_driver/glo_ephem
+      /ublox_driver/iono_params
+      /ublox_driver/time_pulse_info 1Hz
 ground truth: /mavros/global_position/raw/fix 10Hz
 ```
