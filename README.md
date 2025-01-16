@@ -4,6 +4,7 @@ We propose a multi-sensor fusion global positioning system based on vision, iner
 
 Click for the video demo.
 ![London Bridge is coming down](img/cover.jpg "video")
+[London Bridge is coming down]:https://youtu.be/oOds\_DIJLjQ
 ## 1.Datasets
 We collected seven sequences, comprising three indoor and four outdoor scenes. These sequences included challenging visual scenarios. such as featureless environments, frequent occlusions, abrupt lighting changes, overexposure, dynamic objects, and large-scale scenes. For indoor sequences, we utilized a motion capture system to acquire ground truth poses with millimeter-level accuracy. For outdoor sequences, Real-Time Kinematic (RTK) technology was employed to obtain ground truth trajectories with centimeter-level precision.
 
