@@ -8,6 +8,8 @@ Click for the video demo.
 We collected seven sequences, comprising three indoor and four outdoor scenes. These sequences included challenging visual scenarios. such as featureless environments, frequent occlusions, abrupt lighting changes, overexposure, dynamic objects, and large-scale scenes. For indoor sequences, we utilized a motion capture system to acquire ground truth poses with millimeter-level accuracy. For outdoor sequences, Real-Time Kinematic (RTK) technology was employed to obtain ground truth trajectories with centimeter-level precision.
 ### 1.1Topics
 ```cpp
+Stereostopic: /camera/infra1/image_rect_raw 15Hz,
+              /camera/infra2/image_rect_raw 15Hz
 imu: /mavros/imu/data_raw 200Hz
 GNSS: /ublox_driver/receiver_lla 10Hz
       /ublox_driver/receiver_pvt 10Hz
